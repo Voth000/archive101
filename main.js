@@ -131,7 +131,7 @@ function calcSpeed(prev, next) {
 var colors = [
     'rgb(86, 255, 168)', 
     
-    "#FFF233", 
+    "white", 
   
     "#F23EE2",
    
@@ -149,3 +149,26 @@ var colors = [
     }
     setInterval(changeColor, 1000)
   
+    ///pag1///
+
+    var colors1 = [
+        'rgb(86, 255, 168)', 
+        
+        "white", 
+        "orange",
+      
+        "#F23EE2",
+       
+      
+      ];
+      
+        var currentColor1 = 0
+        var lis1 = document.querySelectorAll("#f")
+        function changeColor1() {
+          --currentColor1
+          if (currentColor1 < 0) currentColor1 = colors1.length -1
+          for (var i = 0; i < lis1.length; i++) {
+            lis1[i].style.color = colors1[(currentColor1 +i) % colors1.length]
+          }
+        }
+        setInterval(changeColor1, 1000)
