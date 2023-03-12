@@ -157,7 +157,7 @@ var colors = [
         "white", 
         "orange",
       
-        "#F23EE2",
+    
        
       
       ];
@@ -171,4 +171,4 @@ var colors = [
             lis1[i].style.color = colors1[(currentColor1 +i) % colors1.length]
           }
         }
-        setInterval(changeColor1, 1000)
+        setInterval(changeColor1, 2000)
