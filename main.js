@@ -186,13 +186,14 @@ var colors = [
         
         TweenLite.to(".loader", 1, {
           width: "40vw",
-          delay: 3,
+          delay: 2,
+          duration: 2.9,
         });
         
         gsap.to(".pre-loader", 2, {
           top: "-115vh",
           ease: "power4.inOut",
-          delay: 4,
+          delay: 3.5,
         });
 
         gsap.from(".tab", {
