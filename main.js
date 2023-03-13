@@ -113,11 +113,11 @@ function calcSpeed(prev, next) {
 
     if($("#fl").is(":hover"))
     {
-        var speedModifier = 0.002;
+        var speedModifier = 0.0001;
     }
     else
     {
-    var speedModifier = 0.08;
+    var speedModifier = 0.09;
     };
 
     var speed = Math.ceil(greatest / speedModifier);
