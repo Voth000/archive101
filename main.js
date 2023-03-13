@@ -216,8 +216,6 @@ var colors = [
           delay: 0,
         });
 
-       
-
         gsap.from(".btn-dropdown", {
           opacity: 1, 
           y: 80,
