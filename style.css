@@ -630,6 +630,7 @@ justify-content: center;
 }
 
 /* gifmove */
+@media (hover: hover) and (pointer: fine) {
 #fl:hover {
     filter:  hue-rotate(0deg) contrast(1.2);
     z-index: 9;
@@ -637,6 +638,7 @@ justify-content: center;
 transform: scale(1.6);
 animation-play-state: play;
   }
+}
 
   #fl {
     
@@ -938,10 +940,12 @@ div.a:hover span{
    
 }
 
+
+@media (hover: hover) and (pointer: fine){
 div.a:hover {
     padding: 2em 1em 1em 1em;
     background-color: #ffffff;
-}
+}}
 
 div.q:hover span{
     display: unset !important;
@@ -968,10 +972,11 @@ div.w:hover span{
    
 }
 
+@media (hover: hover) and (pointer: fine){
 div.w:hover {
     padding: 2em 1em 1em 1em;
     background-color: #ffffff;
-}
+}}
 
 .w span {
     color: #fd72c5;
@@ -1158,7 +1163,7 @@ color: #2d3531;
   .pre-loader {
     filter: drop-shadow(4px 4px 8px rgba(250, 131, 216, 0.317)) brightness(1.5) saturate(1.4);
     border-radius: 0px 0px 20px 20px;
-    z-index: 2;
+    z-index: 1;
     position: fixed;
     top: 0;
     width: 100%;
