@@ -159,6 +159,7 @@ footer {
 }
 
 .sw .tab {
+    z-index: 2 !important;
     top: 42px !important;
 
 }
