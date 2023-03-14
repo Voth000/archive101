@@ -1204,10 +1204,6 @@ color: #2d3531;
 
 @media (max-width: 769px) {
 
-    #c2 {
-        position: unset;
-        z-index: unset;
-    }
 
 div#c2.c1.d {
     overflow-y: scroll;
