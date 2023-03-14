@@ -5,9 +5,6 @@ var animations = document.querySelectorAll(".ani");
 var all = document.querySelectorAll(".c1");
 var bod = document.querySelector("header");
 
-
-
-
 tabs.forEach((tab)=>{
 	tab.addEventListener("click", ()=>{
 		tabs.forEach((tab)=>{
@@ -52,6 +49,8 @@ tabs.forEach((tab)=>{
 
 
 ////float///
+
+if($(window).width() >= 769) {
 $(document).ready(function() {
     animateDiv($('.a'));
     animateDiv($('.q'));
@@ -69,6 +68,9 @@ $(document).ready(function() {
         animateDiv($('.x'));
         animateDiv($('.v'));
         animateDiv($('.n'));
+        animateDiv($('.m'));
+        animateDiv($('.l'));
+        animateDiv($('.k'));
     
 });
 
@@ -113,7 +115,7 @@ function calcSpeed(prev, next) {
 
     if($("#fl").is(":hover"))
     {
-        var speedModifier = 0.0001;
+        var speedModifier = 0.008;
     }
     else
     {
@@ -123,19 +125,17 @@ function calcSpeed(prev, next) {
     var speed = Math.ceil(greatest / speedModifier);
 
     return speed;
-
+}
 }
 
 
 /////fix
 var colors = [
     'rgb(86, 255, 168)', 
-    
     "white", 
-  
+  '#ed9df9',
     "#F23EE2",
    
-  
   ];
   
     var currentColor = 0
@@ -153,13 +153,8 @@ var colors = [
 
     var colors1 = [
         'rgb(86, 255, 168)', 
-        
         "white", 
         "orange",
-      
-    
-       
-      
       ];
       
         var currentColor1 = 0
@@ -171,7 +166,7 @@ var colors = [
             lis1[i].style.color = colors1[(currentColor1 +i) % colors1.length]
           }
         }
-        setInterval(changeColor1, 2000)
+        setInterval(changeColor1, 1000)
 
 
 
@@ -223,4 +218,18 @@ var colors = [
           duration: 1,
           delay: 0,
         });
+
+       
+
+
+        /////tab///
         
+        /// tim background-color: #b634e948; ///
+        
+        ////background-color: #d1abf5;
+        ///
+
+        /// green background-color: #34e9a448;///
+        
+        ///   background-color: #95f6d1;////
+
