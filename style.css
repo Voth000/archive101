@@ -1217,7 +1217,7 @@ div#c2.c1.d {
     align-items: center;
     width: 100%;
     display: grid;
-    grid-template-rows: 1fr auto 120px ;
+    grid-template-rows: 1fr auto 140px ;
     height: 100vh;
     max-width: 100%;
     max-height: 100%;
