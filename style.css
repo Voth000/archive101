@@ -48,10 +48,10 @@
     nav {
         min-width: 100%;
         height: 60px !important;
-        grid-template-columns: 80px 1fr !important;
+        grid-template-columns: 60px 1fr !important;
        display: grid !important;
        margin-right: 80px;
-       grid-gap: 12px;
+       grid-gap: 8px;
        z-index: 3 !important;
     }
 
@@ -82,7 +82,8 @@
     }
 
     .btn-icon {
-        margin-right: 20px;
+        margin-bottom: 8px !important;
+        margin-right: 12px;
         justify-content: space-between;
         display: flex;
         border-radius: 60px;
@@ -123,7 +124,7 @@
         box-shadow: 0px 0px 0px 0px #ffb87923 !important;
         opacity: 0;
         position: absolute;
-        margin-top: 128px;
+        margin-top: 122px;
         background-color: rgba(255, 255, 255, 0) !important;
         display: flex;
         flex-direction: column;
@@ -134,7 +135,7 @@
     }
 
     .btn-options a {
-        margin-right: 20px;
+        margin-right: 12px;
         display: flex !important;
         align-items: center;
         justify-content: center;
@@ -942,20 +943,63 @@ div.a:hover span{
 
 
 @media (hover: hover) and (pointer: fine){
+
 div.a:hover {
     padding: 2em 1em 1em 1em;
     background-color: #ffffff;
-}}
-
-div.q:hover span{
-    display: unset !important;
-   
 }
 
 div.q:hover {
     padding: 2em 1em 1em 1em;
     background-color: #ffffff;
     backdrop-filter: blur(10px);
+}
+
+div.e:hover {
+    width: 20% ;
+    padding: 0em 1em 2em 0em;
+    background-color: #95f6d1;
+}
+
+div.r:hover {
+    padding: 2em 1em 1em 1em;
+    background-color: #fdfdfd;
+    backdrop-filter: blur(10px);
+}
+
+div.w:hover {
+    padding: 2em 1em 1em 1em;
+    background-color: #ffffff;
+}
+
+div.t:hover {
+    padding: 0em 1em 0em 0em;
+    background-color: #d1abf5;
+}
+
+div.y:hover {
+    padding: 2em 1em 1em 1em;
+    background-color: #ffffff;
+
+}
+
+div.u:hover {
+    padding: 2em 1em 1em 1em;
+    background-color: #ffffff;
+
+}
+
+div.i:hover {
+    padding: 2em 1em 2em 1em;
+    background-color: #ffffff;
+
+}
+
+}
+
+div.q:hover span{
+    display: unset !important;
+   
 }
 
 .q span {
@@ -972,11 +1016,6 @@ div.w:hover span{
    
 }
 
-@media (hover: hover) and (pointer: fine){
-div.w:hover {
-    padding: 2em 1em 1em 1em;
-    background-color: #ffffff;
-}}
 
 .w span {
     color: #fd72c5;
@@ -990,12 +1029,6 @@ div.w:hover {
 div.e:hover span{
     display: unset !important;
    
-}
-
-div.e:hover {
-    width: 20% ;
-    padding: 0em 1em 2em 0em;
-    background-color: #95f6d1;
 }
 
 .e span {
@@ -1012,19 +1045,14 @@ div.r:hover span{
    
 }
 
-div.r:hover {
-    padding: 2em 1em 1em 1em;
-    background-color: #fdfdfd;
-    backdrop-filter: blur(10px);
-}
 
 .r span {
-    color: #03b100;
+    color: #025c00;
     padding-top: 1em;
   }
 
 .r h3 {
-    color: #f89100;
+    color: #905400;
 }
 
 div.t:hover span{
@@ -1032,11 +1060,6 @@ div.t:hover span{
    
 }
 
-
-div.t:hover {
-    padding: 0em 1em 0em 0em;
-    background-color: #d1abf5;
-}
 
 .t span {
     color: #75fb6e;
@@ -1052,19 +1075,13 @@ div.y:hover span{
    
 }
 
-div.y:hover {
-    padding: 2em 1em 1em 1em;
-    background-color: #ffffff;
-
-}
-
 .y span {
-    color: #7ee03d;
+    color: #4dc100;
     padding-top: 2em;
   }
 
 .y h3 {
-    color: #f3a60b;
+    color: #ce8b04;
 }
 
 div.u:hover span{
@@ -1072,11 +1089,6 @@ div.u:hover span{
    
 }
 
-div.u:hover {
-    padding: 2em 1em 1em 1em;
-    background-color: #ffffff;
-
-}
 
 .u span {
     color: #fd72c5;
@@ -1092,11 +1104,6 @@ div.i:hover span{
    
 }
 
-div.i:hover {
-    padding: 2em 1em 2em 1em;
-    background-color: #ffffff;
-
-}
 
 .i span {
     color: #f30dc5;
@@ -1212,6 +1219,8 @@ color: #2d3531;
 
 
 div#c2.c1.d {
+    scroll-snap-type: y mandatory;
+    background-color: #ffffff;
     overflow-y: scroll;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -1220,6 +1229,8 @@ div#c2.c1.d {
 }
 
 #fl {
+    scroll-snap-align: start;
+background-color: #ffffff00;
     align-items: center;
     width: 100%;
     display: grid;
@@ -1232,14 +1243,18 @@ div#c2.c1.d {
 span {
     filter: drop-shadow(2px 2px 2px #dbfef55c);
     align-items: center;
-padding: 0em;
-    background-color: rgb(255, 255, 255);
+
+    background-color: rgb(234 255 246);
 grid-gap: 8px;
     display: flex;
 width: 100vw;
     font-size: unset;
     line-height: unset;
+    padding: 0em !important;
 }
+
+
+
 
 h3 {
     color: rgb(0, 193, 158) !important;
@@ -1248,11 +1263,16 @@ h3 {
 }
 
 #gif {
+    transform: scale(1);
+    align-self: center;
+    justify-self: center;
     width: 100%;
     height: 100%;
 }
 
-
+#f{
+    display: none;
+}
 
 
 #but {
@@ -1267,6 +1287,10 @@ h3 {
 }
 
 div.a {
+   /* height: calc(100vh - 90px) !important;
+    margin-top: 90px; **/
+    align-self: center;
+    justify-self: center;
     position: unset !important;
 }
 
