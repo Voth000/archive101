@@ -869,7 +869,7 @@ div.a {
         height: 100%;
         width: 100%;
       transform: scale(0.8) translate(0px, 1em);
-   border-radius: 120px;
+   border-radius: 90px;
     position:absolute;
     z-index: 1;
     }
@@ -936,13 +936,13 @@ h3 {
     color: #36d313;
   }
 
-div.a:hover span{
-    display: unset !important;
-   
-}
-
 
 @media (hover: hover) and (pointer: fine){
+
+    div.a:hover span{
+        display: unset !important;
+       
+    }
 
 div.a:hover {
     padding: 2em 1em 1em 1em;
@@ -995,12 +995,49 @@ div.i:hover {
 
 }
 
-}
-
 div.q:hover span{
     display: unset !important;
    
 }
+
+div.w:hover span{
+    display: unset !important;
+   
+}
+
+div.e:hover span{
+    display: unset !important;
+   
+}
+
+div.r:hover span{
+    display: unset !important;
+   
+}
+
+div.t:hover span{
+    display: unset !important;
+   
+}
+
+div.y:hover span{
+    display: unset !important;
+   
+}
+
+div.u:hover span{
+    display: unset !important;
+   
+}
+
+div.i:hover span{
+    display: unset !important;
+   
+}
+
+}
+
+
 
 .q span {
     color: #f7ae5f;
@@ -1009,11 +1046,6 @@ div.q:hover span{
 
 .q h3 {
     color: #a64ef8;
-}
-
-div.w:hover span{
-    display: unset !important;
-   
 }
 
 
@@ -1026,10 +1058,6 @@ div.w:hover span{
     color: #2a0bf3;
 }
 
-div.e:hover span{
-    display: unset !important;
-   
-}
 
 .e span {
     color: #ff0808;
@@ -1038,11 +1066,6 @@ div.e:hover span{
 
 .e h3 {
     color: #ffffff;
-}
-
-div.r:hover span{
-    display: unset !important;
-   
 }
 
 
@@ -1055,10 +1078,6 @@ div.r:hover span{
     color: #905400;
 }
 
-div.t:hover span{
-    display: unset !important;
-   
-}
 
 
 .t span {
@@ -1070,10 +1089,6 @@ div.t:hover span{
     color: #ffffff;
 }
 
-div.y:hover span{
-    display: unset !important;
-   
-}
 
 .y span {
     color: #4dc100;
@@ -1082,11 +1097,6 @@ div.y:hover span{
 
 .y h3 {
     color: #ce8b04;
-}
-
-div.u:hover span{
-    display: unset !important;
-   
 }
 
 
@@ -1099,10 +1109,6 @@ div.u:hover span{
     color: #2ef30b;
 }
 
-div.i:hover span{
-    display: unset !important;
-   
-}
 
 
 .i span {
@@ -1219,6 +1225,7 @@ color: #2d3531;
 
 
 div#c2.c1.d {
+    overflow-x: hidden;
     scroll-snap-type: y mandatory;
     background-color: #ffffff;
     overflow-y: scroll;
@@ -1226,6 +1233,14 @@ div#c2.c1.d {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
    justify-content: center;
 
+}
+div::-webkit-scrollbar {
+    width: 2px;
+}
+
+div::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 3px rgb(197, 14, 253);
 }
 
 #fl {
@@ -1240,10 +1255,16 @@ background-color: #ffffff00;
     max-height: 100%;
 }
 
+#fl:hover {
+    position: relative !important;
+    z-index: -9;
+}
+
 span {
     filter: drop-shadow(2px 2px 2px #dbfef55c);
     align-items: center;
-
+position: relative;
+z-index: 8;
     background-color: rgb(234 255 246);
 grid-gap: 8px;
     display: flex;
@@ -1263,6 +1284,9 @@ h3 {
 }
 
 #gif {
+   position: relative !important;
+   z-index: -9;
+    user-select: none;
     transform: scale(1);
     align-self: center;
     justify-self: center;
@@ -1286,6 +1310,12 @@ h3 {
     height: 40px;
 }
 
+#but:active {
+    color: rgb(255, 255, 255);
+    background-color: #f0c9f6;
+}
+
+
 div.a {
    /* height: calc(100vh - 90px) !important;
     margin-top: 90px; **/
@@ -1299,16 +1329,64 @@ div.q {
     position: unset !important;
 }
 
+.g1 {
+    user-select: none;
+    transform: scale(2) !important ;
+    filter: hue-rotate(0deg)  contrast(1) saturate(1.1) brightness(1.1);
+}
+
 .g2 {
-    transform: scale(2);
+    margin-top: 120px;
+    width: 160% !important;
+    transform: scale(2) !important ;
+    filter: hue-rotate(0deg)  contrast(1) saturate(1.1) brightness(1.1);
+}
+
+.g3 {
+    margin-top: 140px;
+        transform: scale(2) !important ;
+        filter: hue-rotate(0deg)  contrast(1) saturate(1.1) brightness(1.1);
 }
 
 .g6 {
-    transform: scale(1); 
+    margin-top: 80px;
+    transform: scale(5) !important ;
+    filter: hue-rotate(0deg)  contrast(1.1) saturate(1.3) brightness(1.3);
 }
 .g4 {
-    transform: scale(1);
+        transform: scale(4) !important ;
+        filter: hue-rotate(0deg)  contrast(1) saturate(1.1) brightness(1.2);
+
 }
+
+.g5 {
+    margin-top: 120px;
+    transform: scale(3) !important ;
+    filter: hue-rotate(0deg)  contrast(1.1) saturate(1.1) brightness(1);
+
+}
+
+.g7 {
+    margin-top: 80px;
+    transform: scale(3) !important ;
+    filter: hue-rotate(0deg)  contrast(1) saturate(1.1) brightness(1.1);
+
+}
+
+.g8 {
+    margin-top: 80px;
+    transform: scale(2) !important ;
+    filter: hue-rotate(0deg)  contrast(1) saturate(1.4) brightness(1.1);
+
+}
+
+.g9 {
+    margin-top: 80px;
+    transform: scale(2) !important ;
+    filter: hue-rotate(0deg)  contrast(1) saturate(1.2) brightness(1.1);
+
+}
+
 
 
 div.w {
