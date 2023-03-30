@@ -1,3 +1,7 @@
+
+
+
+
 var tabs = document.querySelectorAll(".sw .tab ul li");
 var ds = document.querySelectorAll(".d");
 var inte = document.querySelectorAll(".inter");
@@ -585,5 +589,19 @@ var colors = [
         /////
         
         
+        window.onload=function(){
+          if (is_touch_device()){
+            var divs=document.getElementsByClassName( 'flag');
+            for (var i=0; i<divs.length; i++)
+              divs[i].style.display='none'; 
+          }
+        }
         
-                  
+        function is_touch_device() {
+          return !!('ontouchstart' in window) // works on most browsers 
+              || !!('onmsgesturechange' in window); // works on ie10
+        };
+//////
+
+
+    
