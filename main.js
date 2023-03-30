@@ -562,6 +562,26 @@ var colors = [
                   }
                   
                   next3()
+
+
+                  const phrases4 = [
+                    "Loading..",
+                    "Checking the internet connection...",
+        
+                  ]
+                  
+                  const el4 = document.querySelector('#mb')
+                  const fx4 = new TextScramble(el4)
+                  
+                  let counter4 = 0
+                  const next4 = () => {
+                    fx4.setText(phrases4[counter4]).then(() => {
+                      setTimeout(next4, 800)
+                    })
+                    counter4 = (counter4 + 1) % phrases4.length
+                  }
+                  
+                  next4()
         /////
         
         

@@ -1264,17 +1264,17 @@ div.i:hover span{
   }
 
 .e h3 {
-    color: #ffffff;
+    color: #2b00ff;
 }
 
 
 .r span {
-    color: #05e701;
+    color: #04fb00;
     padding-top: 1em;
   }
 
 .r h3 {
-    color: #cb7905;
+    color: #ff9705;
 }
 
 
@@ -1285,7 +1285,7 @@ div.i:hover span{
   }
 
 .t h3 {
-    color: #ffffff;
+    color: #ff0000;
 }
 
 
@@ -1413,7 +1413,7 @@ color: #2d3531;
     justify-content: left;
     width: 5px;
     height: 12px;
-    background: rgb(182, 111, 66);
+    background: rgb(213, 122, 79);
 }
 
 #mb{
