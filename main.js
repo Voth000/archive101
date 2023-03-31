@@ -1,5 +1,58 @@
    
-        
+       ///////hjfx///
+       gsap.from(".txt", 0.8, {
+        y: 40,
+        opacity: 0,
+        ease: "power2.inOut",
+        delay: 0,
+      });
+      
+      
+      TweenLite.to(".loader", 1, {
+        width: "40vw",
+        delay: 2,
+        duration: 2.9,
+      });
+      
+      gsap.to(".pre-loader", 2, {
+        top: "-115vh",
+        ease: "power4.inOut",
+        delay: 3.5,
+      });
+
+      gsap.from(".tab", {
+        opacity: 1, 
+        x: -650,
+        duration: 2.5,
+        delay: 0,
+      });
+
+      gsap.from(".trai", {
+        opacity: 1, 
+        x: -400,
+        duration: 2,
+        delay: 0,
+      });
+
+      gsap.from(".phai", {
+        opacity: 1, 
+        x: 300,
+        duration: 2,
+        delay: 0,
+      });
+
+      gsap.from(".btn-dropdown", {
+        opacity: 1, 
+        y: 80,
+        duration: 1,
+        delay: 0,
+      });
+
+     
+
+
+      /////tab///
+       
         window.onload=function(){
           if (is_touch_device()){
             var divs=document.getElementsByClassName( 'flag');
@@ -202,59 +255,6 @@ var colors = [
 
 
 
-        ///////hjfx///
-        gsap.from(".txt", 0.8, {
-          y: 40,
-          opacity: 0,
-          ease: "power2.inOut",
-          delay: 0,
-        });
-        
-        
-        TweenLite.to(".loader", 1, {
-          width: "40vw",
-          delay: 2,
-          duration: 2.9,
-        });
-        
-        gsap.to(".pre-loader", 2, {
-          top: "-115vh",
-          ease: "power4.inOut",
-          delay: 3.5,
-        });
-
-        gsap.from(".tab", {
-          opacity: 1, 
-          x: -650,
-          duration: 2.5,
-          delay: 0,
-        });
-
-        gsap.from(".trai", {
-          opacity: 1, 
-          x: -400,
-          duration: 2,
-          delay: 0,
-        });
-
-        gsap.from(".phai", {
-          opacity: 1, 
-          x: 300,
-          duration: 2,
-          delay: 0,
-        });
-
-        gsap.from(".btn-dropdown", {
-          opacity: 1, 
-          y: 80,
-          duration: 1,
-          delay: 0,
-        });
-
-       
-
-
-        /////tab///
         
         /// tim background-color: #b634e948; ///
         
