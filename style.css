@@ -641,6 +641,9 @@ justify-content: center;
 /* gifmove */
 @media (hover: hover) and (pointer: fine) {
 #fl:hover {
+    backdrop-filter: blur(20px);
+    filter: blur(4px);
+    background-blend-mode: luminosity;
     filter:  hue-rotate(0deg) contrast(1.2);
     z-index: 9;
     cursor: pointer;
@@ -673,7 +676,7 @@ animation-play-state: play;
     cursor: pointer;
     z-index: 2; 
     transform: scale(1.1);
-    filter: opacity(1) contrast(1.3) saturate(1.3) brightness(1.1) drop-shadow(10px 10px 5px rgba(234, 129, 250, 0.799));
+    filter: opacity(1) contrast(1.3) saturate(1.3) brightness(1.1) drop-shadow(10px 10px 5px rgba(250, 129, 200, 0.799));
 }
 
 .flag:active  {
@@ -689,7 +692,7 @@ animation-play-state: play;
         width: 40px;
         border-radius: 40px;
         height: 40px;
-      background-color:rgb(0, 255, 191);
+      background-color:rgb(255, 247, 0);
       box-shadow: 0 4px 30px rgba(255, 255, 255, 0.779);
       backdrop-filter: blur(20px);
      
@@ -775,7 +778,7 @@ animation-play-state: play;
 }
 
 #tv3  {
-    color: #ff6cff;
+    color: #0f8fff;
     text-align: left;
     font-size: 1em;
     font-size: 0.75em;
@@ -1160,7 +1163,7 @@ div.a:hover {
     background-blend-mode: luminosity;
     padding: 2em 1em 1em 1em;
     box-shadow: 2px 2px 8px 0px  #f66eff47;
-    background-color: #ffffff;
+    background-color: #ffffffb7;
     
 }
 
@@ -1175,7 +1178,7 @@ div.e:hover {
     width: 20% ;
     padding: 0em 1em 2em 0em;
     box-shadow: 2px 2px 8px 0px  #f66eff47;
-    background-color: #95f6d1;
+    background-color: #95f6d1cd;
 }
 
 div.r:hover {
@@ -1493,7 +1496,8 @@ span {
     align-items: center;
 position: relative;
 z-index: 8;
-    background-color: rgb(234 255 246);
+    background-color: rgba(234, 255, 246, 0.624);
+    box-shadow: 2px 2px 4px 0px  #ffffff27;
 grid-gap: 8px;
     display: flex;
 width: 100vw;
@@ -1522,12 +1526,11 @@ h3 {
     height: 100%;
 }
 
-#f{
-    display: none;
-}
 
 
 #but {
+    
+    box-shadow: 2px 2px 8px 0px  #f66eff47;
     color: rgb(255, 255, 255) !important;
     background-color: #ed86fb;
     margin-right: 12px;
@@ -1559,55 +1562,55 @@ div.q {
 
 .g1 {
     user-select: none;
-    transform: scale(2) !important ;
+    transform: scale(1.5) !important ;
     
 }
 
 .g2 {
     margin-top: 120px;
-    width: 160% !important;
-    transform: scale(2) !important ;
+    width: 100% !important;
+    transform: scale(1.5) !important ;
    
 }
 
 .g3 {
     margin-top: 140px;
-        transform: scale(2) !important ;
+        transform: scale(1.5) !important ;
     
 }
 
 .g6 {
     margin-top: 80px;
-    transform: scale(3) !important ;
+    transform: scale(2) !important ;
     
 }
 .g4 {
-        transform: scale(3) !important ;
+        transform: scale(2) !important ;
       
 }
 
 .g5 {
     margin-top: 120px;
-    transform: scale(2) !important ;
+    transform: scale(1.5) !important ;
     
 
 }
 
 .g7 {
     margin-top: 80px;
-    transform: scale(3) !important ;
+    transform: scale(2) !important ;
     
 
 }
 
 .g8 {
     margin-top: 80px;
-    transform: scale(2) !important ;
+    transform: scale(1.5) !important ;
 }
 
 .g9 {
     margin-top: 80px;
-    transform: scale(2) !important ;
+    transform: scale(1.5) !important ;
    
 
 }

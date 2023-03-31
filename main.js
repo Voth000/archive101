@@ -1,4 +1,18 @@
-
+   
+        
+        window.onload=function(){
+          if (is_touch_device()){
+            var divs=document.getElementsByClassName( 'flag');
+            for (var i=0; i<divs.length; i++)
+              divs[i].style.display='none'; 
+          }
+        }
+        
+        function is_touch_device() {
+          return !!('ontouchstart' in window) // works on most browsers 
+              || !!('onmsgesturechange' in window); // works on ie10
+        };
+//////
 
 
 
@@ -67,8 +81,9 @@ tabs.forEach((tab)=>{
 
 ////float///
 
-if($(window).width() >= 769) {
+
 $(document).ready(function() {
+  if($(window).width() >= 769) {
     animateDiv($('.a'));
     animateDiv($('.q'));
     animateDiv($('.w'));
@@ -77,7 +92,7 @@ $(document).ready(function() {
     animateDiv($('.t'));
     animateDiv($('.y'));
     animateDiv($('.u'));
-    animateDiv($('.i'));
+    animateDiv($('.i')); }
 
         animateDiv($('.b'));
         animateDiv($('.c'));
@@ -143,7 +158,7 @@ function calcSpeed(prev, next) {
 
     return speed;
 }
-}
+
 
 
 /////fix
@@ -587,21 +602,6 @@ var colors = [
                   
                   next4()
         /////
-        
-        
-        window.onload=function(){
-          if (is_touch_device()){
-            var divs=document.getElementsByClassName( 'flag');
-            for (var i=0; i<divs.length; i++)
-              divs[i].style.display='none'; 
-          }
-        }
-        
-        function is_touch_device() {
-          return !!('ontouchstart' in window) // works on most browsers 
-              || !!('onmsgesturechange' in window); // works on ie10
-        };
-//////
-
+     
 
     
