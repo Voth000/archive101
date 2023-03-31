@@ -1497,7 +1497,7 @@ background-color: #ffffff00;
 }
 
 span {
-    filter: drop-shadow(2px 2px 2px #dbfef55c);
+    filter: drop-shadow(2px 2px 2px #dbfef5be);
     align-items: center;
 position: relative;
 z-index: 8;
