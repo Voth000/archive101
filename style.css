@@ -1475,6 +1475,9 @@ div::-webkit-scrollbar-thumb {
 }
 
 #fl {
+  
+  
+   
     scroll-snap-align: start;
 background-color: #ffffff00;
     align-items: center;
@@ -1486,9 +1489,11 @@ background-color: #ffffff00;
     max-height: 100%;
 }
 
+
+
 #fl:hover {
     position: relative !important;
-    z-index: -9;
+    z-index: 2;
 }
 
 span {
@@ -1510,12 +1515,13 @@ width: 100vw;
 
 
 h3 {
-    color: rgb(0, 193, 158) !important;
+    color: rgb(255 171 72) !important;
     padding: 1em;
     font-size: unset;
 }
 
 #gif {
+   
    position: relative !important;
    z-index: -9;
     user-select: none;
@@ -1561,12 +1567,15 @@ div.q {
 }
 
 .g1 {
+  
+    filter: hue-rotate(0deg) contrast(1.1) !important;
     user-select: none;
     transform: scale(1.5) !important ;
     
 }
 
 .g2 {
+    filter: hue-rotate(0deg) contrast(1.1) !important;
     margin-top: 120px;
     width: 100% !important;
     transform: scale(1.5) !important ;
@@ -1574,22 +1583,27 @@ div.q {
 }
 
 .g3 {
+    filter: hue-rotate(0deg) contrast(1.1) !important;
     margin-top: 140px;
         transform: scale(1.5) !important ;
     
 }
 
 .g6 {
+    
+    filter: hue-rotate(0deg) contrast(1.2)  brightness(1.6) !important;
     margin-top: 80px;
     transform: scale(2) !important ;
     
 }
 .g4 {
+    filter: hue-rotate(0deg) contrast(1.1) !important;
         transform: scale(2) !important ;
       
 }
 
 .g5 {
+    filter: hue-rotate(0deg) contrast(1.1) !important;
     margin-top: 120px;
     transform: scale(1.5) !important ;
     
@@ -1597,6 +1611,7 @@ div.q {
 }
 
 .g7 {
+    filter: hue-rotate(0deg) contrast(1.1) !important;
     margin-top: 80px;
     transform: scale(2) !important ;
     
@@ -1604,11 +1619,13 @@ div.q {
 }
 
 .g8 {
+    filter: hue-rotate(0deg) contrast(1.1) !important;
     margin-top: 80px;
     transform: scale(1.5) !important ;
 }
 
 .g9 {
+    filter: hue-rotate(0deg) contrast(1.1) !important;
     margin-top: 80px;
     transform: scale(1.5) !important ;
    
