@@ -566,43 +566,43 @@ justify-content: center;
 
 .g1 {
     
-    transform: scale(2);
+    transform: scale(0.8);
     filter: hue-rotate(90deg)  contrast(1) saturate(1.1) brightness(1) drop-shadow(0px 10px 5px rgb(255, 255, 255));
  }
 
  .g2{
     filter: hue-rotate(230deg) contrast(1.2) saturate(1.2) brightness(1.1) drop-shadow(0px 5px 5px rgb(255, 255, 255));
-    transform: scale(4.5);
+    transform: scale(1.4);
  }
  .g3{
     filter: hue-rotate(80deg) contrast(1.2) saturate(1.3) brightness(1) drop-shadow(0px 10px 5px rgb(255, 255, 255));
-    transform: scale(1.6);
+    transform: scale(0.6);
  }
  .g4{
     filter: hue-rotate(270deg) saturate(2) brightness(1.1) drop-shadow(10px 10px 5px rgb(255, 255, 255));
-    transform: scale(2.5);
+    transform: scale(2);
  }
  .g5{
     filter:  hue-rotate(250deg) contrast(0.9) saturate(1.3) brightness(1.1) drop-shadow(0px 10px 5px  rgb(255, 255, 255));
-    transform: scale(1.6);
+    transform: scale(0.8);
  }
 
  .g6{
   
     filter:   brightness(1.1) hue-rotate(260deg) contrast(1.4) saturate(2) brightness(1.1) drop-shadow(5px 10px 10px rgb(255, 255, 255));
-    transform:  scale(3.5);
+    transform:  scale(2);
  }
  .g7{
     filter:  hue-rotate(220deg) contrast(0.8) saturate(1.1) brightness(1) drop-shadow(0px 5px 5px rgb(255, 255, 255));
-    transform: scale(2);
+    transform: scale(0.7);
  }
  .g8{
     filter:  hue-rotate(160deg) contrast(1.7) saturate(1.6) brightness(1) drop-shadow(0px 5px 5px rgb(255, 255, 255));
-    transform: scale(2);
+    transform: scale(0.7);
  }
  .g9{
     filter: hue-rotate(80deg) opacity(1) contrast(1.1) saturate(1.2) brightness(0.9) drop-shadow(0px 5px 5px rgb(255, 255, 255));
-    transform: scale(1.7);
+    transform: scale(0.7);
  }
  @media (hover: hover) and (pointer: fine) {
  .g1:hover {
@@ -1161,14 +1161,14 @@ div.a:hover {
     backdrop-filter: blur(20px);
     filter: blur(4px);
     background-blend-mode: luminosity;
-    padding: 2em 1em 1em 1em;
+    padding: 0em 1em 2.5em 1em;
     box-shadow: 2px 2px 8px 0px  #f66eff47;
     background-color: #ffffffb7;
     
 }
 
 div.q:hover {
-    padding: 2em 1em 1em 1em;
+    padding: 2em 1em 1.5em 1em;
     background-color: #ffffff;
     box-shadow: 2px 2px 8px 0px  #f66eff47;
     backdrop-filter: blur(10px);
@@ -1182,14 +1182,14 @@ div.e:hover {
 }
 
 div.r:hover {
-    padding: 2em 1em 1em 1em;
+    padding: 2em 1em 3em 1em;
     background-color: #fdfdfd;
     box-shadow: 2px 2px 8px 0px  #f66eff47;
     backdrop-filter: blur(10px);
 }
 
 div.w:hover {
-    padding: 2em 1em 1em 1em;
+    padding: 0em 1em 3em 0em;
     box-shadow: 2px 2px 8px 0px  #f66eff47;
     background-color: #ffffff;
 }
@@ -1201,21 +1201,21 @@ div.t:hover {
 }
 
 div.y:hover {
-    padding: 2em 1em 1em 1em;
+    padding: 0em 1em 3em 0em;
     box-shadow: 2px 2px 8px 0px  #f66eff47;
     background-color: #ffffff;
 
 }
 
 div.u:hover {
-    padding: 2em 1em 1em 1em;
+    padding: 0em 1em 2.5em 0em;
     box-shadow: 2px 2px 8px 0px  #f66eff47;
     background-color: #ffffff;
 
 }
 
 div.i:hover {
-    padding: 2em 1em 2em 1em;
+    padding: 0em 1em 3em 0em;
     box-shadow: 2px 2px 8px 0px  #f66eff47;
     background-color: #ffffff;
 
@@ -1266,8 +1266,9 @@ div.i:hover span{
 
 
 .q span {
+    margin-top: 0em;
     color: #f7ae5f;
-    padding-top: 4em;
+   
   }
 
 .q h3 {
@@ -1276,8 +1277,9 @@ div.i:hover span{
 
 
 .w span {
+    margin-top: -5em;
     color: #fd72c5;
-    padding-top: 1em;
+    
   }
 
 .w h3 {
@@ -1286,8 +1288,10 @@ div.i:hover span{
 
 
 .e span {
-    color: #ff0808;
+    margin-top: 0em;
     padding-top: 3em;
+    color: #ff0808;
+   
   }
 
 .e h3 {
@@ -1297,7 +1301,7 @@ div.i:hover span{
 
 .r span {
     color: #04fb00;
-    padding-top: 1em;
+    
   }
 
 .r h3 {
@@ -1307,8 +1311,10 @@ div.i:hover span{
 
 
 .t span {
+    margin-top: 0em;
+    padding-top: 2em;
     color: #75fb6e;
-    padding-top: 3em;
+   
   }
 
 .t h3 {
@@ -1318,7 +1324,7 @@ div.i:hover span{
 
 .y span {
     color: #4dc100;
-    padding-top: 2em;
+   
   }
 
 .y h3 {
@@ -1328,18 +1334,21 @@ div.i:hover span{
 
 .u span {
     color: #fd72c5;
-    padding-top: 2em;
+   
   }
 
 .u h3 {
     color: #2ef30b;
 }
 
-
+.a span {
+    margin-top: -3em !important;
+}
 
 .i span {
+    
     color: #f30dc5;
-    padding-top: 3em;
+   
   }
 
 .i h3 {
@@ -1349,7 +1358,7 @@ div.i:hover span{
 
 
   span {
-   padding-top: 2em;
+    margin-top: -4em;
     text-align: right;
     display: none ;
     transition: all 0.3s ease-in;
